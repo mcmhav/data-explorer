@@ -1,0 +1,43 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+pydocstyle = "*"
+autopep8 = "*"
+yapf = "*"
+mypy = "*"
+
+[packages]
+jupyter = "*"
+jupyterthemes = "*"
+flask = "*"
+gunicorn = "*"
+jupyter-contrib-nbextensions = "*"
+request = "*"
+bokeh = "==1.4.0"
+chart-studio = "*"
+#torch = "*"
+#torchvision = "*"
+blackcellmagic = "*"
+pandas = "*"
+torch = "*"
+lazy-property = "*"
+jupyterlab = "*"
+scipy = "*"
+xlrd = "*"
+sklearn = "*"
+scikit-learn = "*"
+graphviz = "*"
+seaborn = "*"
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+j = "jupyter lab --no-browser"
+
+[pipenv]
+allow_prereleases = true
